@@ -36,7 +36,7 @@ class AgendaController {
 
   Future<bool> realizarLogin() async {
     await Future.delayed(const Duration(seconds: 2));
-    if (usuarioCtrl.text == "admin@email.com" && senhaCtrl.text == "123") {
+    if (usuarioCtrl.text == "admin@gmail.com" && senhaCtrl.text == "123") {
       return true;
     }
     return false;
